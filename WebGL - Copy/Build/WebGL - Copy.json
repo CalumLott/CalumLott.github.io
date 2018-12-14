@@ -1,0 +1,14 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Madness",
+"dataUrl": "WebGL - Copy.data.unityweb",
+"asmCodeUrl": "WebGL - Copy.asm.code.unityweb",
+"asmMemoryUrl": "WebGL - Copy.asm.memory.unityweb",
+"asmFrameworkUrl": "WebGL - Copy.asm.framework.unityweb",
+"TOTAL_MEMORY": 318767104,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"}
+}
