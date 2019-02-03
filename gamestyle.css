@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    margin:0;       
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0);
+}
+#showcase{              
+    background-image: url("img/witchHeadNebula.jpg");
+    background-size:cover;
+    background-position:center;   
+    height: 100vh;  
+}
+#showcase h1 {      
+    color: red;
+    text-align: center;
+    font-size: 80px;           
+    -webkit-text-stroke: black 2.4px;
+    padding-bottom: 1px;
+    text-decoration: none;    
+    text-shadow: 0px 0px 0px black,
+                 1px 1px 1px black,
+                 2px 2px 1px black,
+                 3px 3px 1px black,
+                 4px 4px 1px black,
+                 5px 5px 1px black,
+                 6px 6px 1px black;   
+}
+
+#showcase h2 {      
+    color: red;
+    text-align: center;    
+    font-size: 35px;     
+    -webkit-text-stroke: black 1.5px;
+    padding-top: 20px;
+    padding-left: 50px;                  
+}
+
+#showcase .links{
+    padding: 8px;        
+    background: rgba(0, 0, 0, 0.555);  
+    position: absolute;  
+    left: 3%;
+    bottom: 82%;
+    color: white;
+    font-size: 21px;     
+}
+
+#showcase .section-a{
+    border: 2px solid red;    
+    background: rgba(0, 0, 0, 0.555);
+    position: absolute;
+    left: 30%;   
+    bottom: 12%;
+    color: white;
+    font-size: 100px; 
+}
+
+
+
+

@@ -1,34 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
-    background-image: ("screenshot.jpg");
+    margin:0;       
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0);
+       
 }
 
-h1 {
-    color:black;
+#showcase{              
+    background-image: url("img/witchHeadNebula.jpg");
+    background-size:cover;
+    background-position:center;   
+    height: 145vh;     
+}
+
+#showcase h1 {   
+    margin-left: 30px;    
+    color: red;
     text-align: left;
-    font-size: 40px;
+    font-size: 80px;        
+    position: absolute;
+    bottom: 50%;
+    -webkit-text-stroke: black 2.4px;
+    border-bottom: 2px solid red;
+    padding-bottom: 1px;
+    text-decoration: none;    
+    text-shadow: 0px 0px 0px black,
+                 1px 1px 1px black,
+                 2px 2px 1px black,
+                 3px 3px 1px black,
+                 4px 4px 1px black,
+                 5px 5px 1px black,
+                 6px 6px 1px black;   
 }
 
-p {
+#showcase .button1{
+    font-size: 22px;   
+    font-style: italic; 
+    text-decoration: none;   
+    text-align: left; 
+    color: white;    
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 12%;
+    bottom: 34%;   
+}
+#showcase .button1:hover{
+    color:red;
+}
+
+#showcase .button{
+    font-size: 40px;   
+    font-style: italic; 
+    text-decoration: none;    
+    color: white;
+    border: black 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+    bottom: 80%;
+    background:rgba(255, 0, 0, 0.397);
+}
+
+#showcase .button:hover{
+    background:rgba(255, 0, 0, 0.164);
+}
+
+#showcase .button2{
+    font-size: 40px;   
+    font-style: italic; 
+    text-decoration: none;    
+    color: white;
+    border:black 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+    bottom: 80%;
+    background:rgba(255, 0, 0, 0.397);
+}
+#showcase .button2:hover{
+    background:rgba(255, 0, 0, 0.164);
+}
+
+#showcase .button3{
+    font-size: 40px;   
+    font-style: italic; 
+    text-decoration: none;    
+    color: white;
+    border: black 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 75%;
+    bottom: 80%;
+    background:rgba(255, 0, 0, 0.397);
+}
+#showcase .button3:hover{
+    background:rgba(255, 0, 0, 0.164);
+}
+
+#showcase p {   
+    margin-left:6px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;   
-    text-align: center;
+    font-size: 20px;   
+    text-align: left;
+    color: red;   
 }
 
-.homeImages {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;   
-    width: 720px;
-    
-    
+#showcase .links{
+    padding: 8px;        
+    background: rgba(0, 0, 0, 0.555);  
+    position: absolute;  
+    left: 3%;
+    bottom: -18%;
+    color: white;
+    font-size: 21px; 
 }
 
-.Content {
-    max-width: 960px;
-    margin: auto;
-    text-align: center;
+#section-a{
+   padding: 20px;  
 }
 
-.linkCentre {
-    text-align: center;
+#section-b{ 
+    padding: 20px;  
+    position: absolute;
+    bottom: 40%;
+    color:white;
+    margin-left: 10px;
+    font-size: 22px;    
+    -webkit-text-stroke: black 0.1px;              
+ }
+
+ #section-c{  
+    padding: 20px;  
+    position: absolute;  
+    bottom: -44%;    
+    color: white;
+    font-size: 10px;
+ }
+
+ #section-d{
+     padding: 8px;     
+     border: 2px solid red;    
+     background: rgba(0, 0, 0, 0.555);
+     position: absolute;     
+     left: 2%;
+     right: 60%;
+     bottom: 7%;
+     color: white;
+     font-size: 21px;      
+ }
+
+ #section-e{
+    padding: 8px;     
+    border: 2px solid red;    
+    background: rgba(0, 0, 0, 0.555);
+    position: absolute;     
+    left: 60%;
+    right: 2%;
+    bottom: 12%;
+    color: white;
+    font-size: 21px; 
+    background-image: url("img/screenshot.jpg");   
+    background-size: 100%;
 }
+
+
